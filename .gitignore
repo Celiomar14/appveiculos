@@ -1,0 +1,190 @@
+# Ignore os arquivos temporários do Visual Studio, os resultados de compilação e
+## arquivos gerados pelos populares complementos do Visual Studio.
+
+# Arquivos específicos do usuário
+* .suo
+*.do utilizador
+* .sln.documentos
+* .userprefs
+
+# Ignore os arquivos Xamarin.Android Resource.Designer.cs
+** / *. Droid / ** / [Rr] esource. [Dd] esigner.cs
+** / *. Android / ** / [Rr] esource. [Dd] esigner.cs
+** / Android / ** / [Rr] esource. [Dd] esigner.cs
+** / Droid / ** / [Rr] esource. [Dd] esigner.cs
+
+# Xamarin Components
+Componentes /
+
+# Resultados da compilação
+[Dd] ebug /
+[Dd] ebugPublic /
+[Rr] elease /
+X64 /
+construir/
+Bld /
+[Bb] em /
+[Oo] bj /
+
+Resultados do teste # MSTest
+[Tt] est [Rr] esult * /
+[Bb] uild [Ll] og. *
+
+#NUNIT
+* .VisualState.xml
+TestResult.xml
+
+# Construir resultados de um projeto ATL
+[Dd] ebugPS /
+[Rr] eleasePS /
+Dlldata.c
+
+* _i.c
+* _p.c
+* _i.h
+* .ilk
+* .meta
+* .obj
+* .pch
+* .pdb
+* .pgc
+* .pgd
+* .rsp
+* .sbr
+* .tlb
+* .tli
+* .tlh
+* .tmp
+* .tmp_proj
+*.registro
+* .vspscc
+* .vssscc
+.builds
+* .pidb
+* .svclog
+* .scc
+
+# Arquivos de teste Chutzpah
+_Chutzpah *
+
+# Arquivos de cache Visual C ++
+Ipch /
+* .aps
+* .ncb
+* .opensdf
+* .sdf
+* .cachefile
+
+# Visual Studio profiler
+* .psess
+* .vsp
+* .vspx
+
+# TFS 2012 Local Workspace
+$ Tf /
+
+# Ferramenta de Automação de Automação
+* .gpState
+
+# ReSharper é um complemento de codificação .NET
+_ReSharper * /
+*. [Rr] e [Ss] harper
+* .DotSettings.user
+
+# JustCode é uma codificação .NET addin-in
+.JustCode
+
+# TeamCity é um add-in de compilação
+_TeamCity *
+
+# DotCover é uma ferramenta de cobertura de código
+* .dotCover
+
+# NCrunch
+* .ncrunch *
+_NCrunch_ *
+. * Crunch * .local.xml
+
+# MightyMoose
+*.milímetros.*
+AutoTest.Net/
+
+# Web workbench (sass)
+.sass-cache /
+
+# Pasta de saída Installshield
+[Ee] xpress /
+
+# DocProject é um complemento de gerador de documentação
+DocProject / buildhelp /
+DocProject / Help / *. HxT
+DocProject / Help / *. HxC
+DocProject / Help / *. Hhc
+DocProject / Help / *. Hhk
+DocProject / Help / *. Hhp
+DocProject / Help / Html2
+DocProject / Help / html
+
+# Diretório Click-Once
+publicar/
+
+# Publicar Web Output
+*. [Pp] ublish.xml
+* .azurePubxml
+
+# NuGet Packages Directory
+Pacotes /
+* .nuget.targets
+* .lock.json
+* .nuget.props
+
+## TODO: Se a ferramenta que você usa requer repositórios.config descomente a próxima linha
+#! Packages / repositories.config
+
+# Habilite a pasta "build /" na pasta NuGet Packages, uma vez que os pacotes NuGet usam isso para destinos MSBuild
+# Esta linha precisa ser após ignorar a pasta de compilação (e a pasta de pacotes se a linha acima tiver sido descomente)
+! Pacotes / build /
+
+# Windows Azure Build Output
+Csx /
+* .build.csdef
+
+# Diretório do pacote de aplicativos do Windows Store
+AppPackages /
+
+# Outras
+Sql /
+* .Cache
+ClientBin /
+[Ss] tyle [Cc] op. *
+~ $ *
+* ~
+* .dbmdl
+* .dbproj.schemaview
+* .pfx
+* .publishsettings
+Node_modules /
+.DS_Store
+* .bak
+
+# RIA / Silverlight projects
+Generated_Code /
+
+# Backup e relatórios de arquivos de converter um arquivo de projeto antigo para um novo
+# Versão do Visual Studio. Os arquivos de backup não são necessários, porque temos git ;-)
+_UpgradeReport_Files /
+Cópia de segurança*/
+UpgradeLog * .XML
+UpgradeLog * .htm
+
+# Arquivos do SQL Server
+* .mdf
+* .ldf
+
+# Projetos de Inteligência de Negócios
+* .rdl.data
+* .bim.layout
+* .bim _ *. Settings
+
+# Microsoft Fakes
+FakesAssemblies /
